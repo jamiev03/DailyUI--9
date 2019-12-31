@@ -26,8 +26,31 @@ body {
 }
 .body {
     width: 100%;
-    height: 100%;
+    height: 70%;
     margin-top: 60px;
     border-radius: 50px;
-    background: white;   
+    background: white; 
+    border-top: 1px solid transparent;  
+}
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 80px auto 30px auto;
+}
+.song-title {
+    text-align: center;
+}
+h4 {
+    line-height: 10px;
+}
+.progress-bar { 
+    height: 20px;  /* Can be anything */
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 }
