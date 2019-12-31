@@ -23,17 +23,24 @@ body {
     -moz-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     overflow: hidden;
+    border-top: 1px solid transparent;
+}
+label {
+    font-size: 26px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 60px;
 }
 .body {
     width: 100%;
     height: 70%;
-    margin-top: 60px;
+    margin-top: 48px;
     border-radius: 50px;
     background: white; 
     border-top: 1px solid transparent;  
 }
 img {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 80px auto 30px auto;
@@ -45,12 +52,31 @@ h4 {
     line-height: 10px;
 }
 .progress-bar { 
-    height: 20px;  /* Can be anything */
+    margin-top: 50px;
+    height: 10px;  /* Can be anything */
     position: relative;
-    background: #555;
+    background: rgb(238, 238, 238);
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
     padding: 10px;
     box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 }
+.progress-bar > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #ee6352;
+    position: relative;
+    overflow: hidden;
+}
+.time {
+    float: right;
+    margin: 0 15px 0 0;
+    font-size: 13px;
+    
+}
+
